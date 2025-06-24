@@ -1,160 +1,115 @@
+
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-
         Scanner s = new Scanner(System.in);
-
-        System.out.println("Enter one of  :");
-        String user = s.nextLine();
-
-        if(user.equalsIgnoreCase("admin")){
-            System.out.println("Welcome admin");
-        }
-        else if (user.equalsIgnoreCase("superuser"))
-            System.out.println("Welcome superuser ");
-        else if (user.equalsIgnoreCase("user"))
-        System.out.println("Welcome user");
-        else {
-            System.out.println(" just one of,admin,superuser,user");
-        }
-}
-
-
-
-
-
-    }
-        //continue
-//        System.out.println("Enter age ");
-//        int age =s.nextInt();
+        // 1.Write a program that checks the role of the user
 //
-//        if ( age <= 13 ){
-//            System.out.println("He is chaild ");
+//        System.out.println("Enter your role :");
+//        String user = s.nextLine();
 //
-//        } else if (age >=13 && age <= 17) {
-//            System.out.println("He is teenager ");
-//        } else if ((age >=18 && age <=64)) {
-//
-//            System.out.println("aa");
-//
-//        } else {
-//            System.out.println("ed");
+//        if(user.equalsIgnoreCase("admin")){
+//            System.out.println("Welcome admin");
+//        }
+//        else if (user.equalsIgnoreCase("superuser")) {
+//           System.out.println("Welcome superuser ");}
+//        else if (user.equalsIgnoreCase("user")){
+//        System.out.println("Welcome user");}
+//        else {
+//            System.out.println("Please enter one of these,admin,superuser,or user");
 //        }
 //
+// }
 
+//        2.Take three numbers from the user and print the greatest number.
 
+//        System.out.println("Enter the first number : ");
+//        int number1 = s.nextInt();
+//        System.out.println("Enter the second number :")
+//        int number2 = s.nextInt();
+//        System.out.println("Enter the third number :");
+//        int number3 = s.nextInt();
 //
-//        System.out.println("Enter mark :");
-//        int mark = s.nextInt();
-//        if(mark >=0 && mark <=100){
-//            if (mark >=90){
+//        if (number1 >= number2 && number1 >= number3) {
+//            System.out.println("The gratest is : " + number1);
+//        } else if (number2 >= number1 && number2 >= number3) {
+//            System.out.println("The gratest is : " + number2);
+//        } else {
+//            System.out.println("The gratest is : " + number3);
+//        }
+
+        // }
+//    3.Write a Java program that generates an integer between 1 and 7
+//    and displays the name of the weekday.
+//
+//    Random rand = new Random();
+//    int number = rand.nextInt(7);
+//    {
+//        System.out.println("Number is " + number);
+//        switch (number) {
+//            case 1:
+//                System.out.println("sunday");
+//                break;
+//            case 2:
+//                System.out.println("Monday");
+//                break;
+//            case 3:
+//                System.out.println("Tuesday");
+//                break;
+//            case 4:
+//                System.out.println("Wednesday");
+//                break;
+//            case 5:
+//                System.out.println("Thursday");
+//                break;
+//            case 6:
+//                System.out.println("Friday");
+//                break;
+//            case 7:
+//                System.out.println("Saturday");
+//                break;
+//        }
+//        4.
+//        Write a program that takes a numeric score as input and prints
+//        the corresponding letter grade using the following grading scale:
+//        System.out.println("Enter numeric score :");
+//
+//        int numeric = s.nextInt();
+//        if(numeric >=0 && numeric <=100){
+//            if (numeric >=90){
 //                System.out.println("A");
-//            } else if (mark >=80) {
+//            } else if (numeric >=80) {
 //                System.out.println("B");
-//            } else if (mark >=70) {
-//                System.out.println("c");
-//            } else if (mark >=60) {
-//                System.out.println("d");
+//            } else if (numeric >=70) {
+//                System.out.println("C");
+//            } else if (numeric >=60) {
+//                System.out.println("D");
 //            }
 //            else {
-//                System.out.println("F");
+//                System.out.println("0");
 //            }
 //        }else{
 //            System.out.println("not in the range of marks");
 //        }
 //
-
-
-
-//        if(number1 > 0 ) {
-//            System.out.println("pos");
-//        }
-//        else if (){
-//            System.out.println("");
-//
-//
-//
-//        } else {
-//            System.out.println("negtive");
-//        }
-
-
-//
-//        System.out.println("Enter your word :");
-//        String word = s.nextLine();
-//
-//        System.out.println("Enter your word :");
-//        String word2 = s.nextLine();
-//        if(word.equalsIgnoreCase(word2)){
-//            System.out.println(" its same ");
-//        }
-//        else {
-//
-//            System.out.println(word);
-//            System.out.println("its not same");
-//        }
-
-
-
-
-
-
-
-
-
-
-
-//
-//        System.out.println("Enter your mark :");
-//        int mark = s.nextInt();
-//        if(mark >= 60 && mark <=100){
-//            System.out.println("pass");
-//        }
-//        else{
-//            System.out.println("failed ");
-//        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-//        System.out.println("Enter your name :");
-//        String name = s.nextLine();
-//
-//        if (name.length() < 8) {
-//            System.out.println("the is short ");
-//            System.out.println(name.length());
-//        }
-//        System.out.println("Enter your age :");
-//        int age = s.nextInt();
-//
-//        if(age > 18 )
-//            System.out.println("join to our bootcamp :");
-
-//
-//       else
-//            System.out.println("odd");
 //    }
-//        System.out.println("Enter one word : ");
-//        String word = s.nextLine();
-//        System.out.println("Enter soc word :");
-//        String word2 = s.nextLine();
-//        if(word.equalsIgnoreCase(word2)){
+//}
+//        5.
+//        Write a Java program that takes a person's age as input and
+//        categorizes them into one of three age categories: "Child,"
+//        "Teenager," or "Adult" using an if statement.
+//        System.out.println("Please Enter the age ");
+//        int age = s.nextInt();
+//        if (age <= 13) {
+//            System.out.println("child");
 //
-//            System.out.println("it is same");
-
-
-
+//        } else if (age >= 13 && age <= 19) {
+//            System.out.println("Teenager ");
+//        } else {
+//            System.out.println("Adult");
+//        }
+//    }
+//}
+//
